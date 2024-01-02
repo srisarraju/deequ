@@ -60,7 +60,7 @@ private[examples] object AnomalyDetectionExample extends App {
     val todaysDataset = itemsAsDataframe(session,
       Item(1, "Thingy A", "awesome thing.", "high", 0),
       Item(2, "Thingy B", "available at http://thingb.com", null, 0),
-      Item(3, null, null, "low", 5),
+      Item(3, null, null, "low", 15),
       Item(4, "Thingy D", "checkout https://thingd.ca", "low", 10),
       Item(5, "Thingy E", null, "high", 12))
 
